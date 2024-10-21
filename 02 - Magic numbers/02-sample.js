@@ -1,5 +1,7 @@
+const MAIOR_IDADE = 18;
+
 function verificarSePodeDirigir(idade) {
-    if (idade >= 18) {
+    if (idade >= MAIOR_IDADE) {
         return 'Pode dirigir';
     } else {
         return 'Não pode dirigir';

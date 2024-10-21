@@ -1,5 +1,7 @@
+const TAXA_FRETE = 10;
+
 function calcularFrete(distancia) {
-    return distancia * 10;
+    return distancia * TAXA_FRETE;
 }
 
 const frete = calcularFrete(50);
